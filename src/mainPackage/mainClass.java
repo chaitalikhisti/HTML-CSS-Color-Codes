@@ -119,7 +119,6 @@ public class mainClass
 		 {
 			 file = new File("log.txt");
 			out = new PrintWriter(new BufferedWriter(new FileWriter(file)));
-			 // Print the text we want to the file
 			/* for (int j = 0; j <= 16777215; j += 5) */
 			for (int j = 0; j <= 1675; j += 5)				
 			{
@@ -138,32 +137,5 @@ public class mainClass
 		 {
 			 except.printStackTrace();
 		 }
-		/*
-		for (int j = 16734000; j < 16734004; j++)
-		{
-			rgbComputations rgb = new rgbComputations();
-			String rgbString = rgb.rgbComp(j);
-			hexComputations hex = new hexComputations();
-			String hexString = hex.hexComp(j);
-			String outputString = rgbString+ " " +hexString;
-			System.out.println(outputString);
-			toFile(outputString);
-		}
-		out.close();
-		*/
-		/*
-		for (int i = 0; i <= 33554431; i++)
-		{
-			if (i % 2 == 0)
-			{
-				//rgbCombinations();
-				//hexCombinations();
-			}
-			else if (i % 2 == 1)
-			{
-				//hexCombinations();
-			}
-		}
-		*/
 	}
 }
